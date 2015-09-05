@@ -3,7 +3,7 @@ package com.aiweather.app.entities;
 public class City {
     
 	private int id;
-	private String cityNamee;
+	private String cityName;
 	private String cityCode;
 	private int provinceId;
 	
@@ -13,11 +13,11 @@ public class City {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getCityNamee() {
-		return cityNamee;
+	public String getCityName() {
+		return cityName;
 	}
-	public void setCityNamee(String cityNamee) {
-		this.cityNamee = cityNamee;
+	public void setCityName(String cityName) {
+		this.cityName = cityName;
 	}
 	public String getCityCode() {
 		return cityCode;
@@ -31,6 +31,4 @@ public class City {
 	public void setProvinceId(int provinceId) {
 		this.provinceId = provinceId;
 	}
-	
-	
 }
