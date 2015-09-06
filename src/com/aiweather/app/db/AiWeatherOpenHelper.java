@@ -1,5 +1,10 @@
 package com.aiweather.app.db;
-
+/**
+ * 数据库帮助类，建立省，市，县三张表
+ * 用于存储相关数据
+ * @author liao jingwei
+ * 2015/5/3
+ */
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteDatabase.CursorFactory;

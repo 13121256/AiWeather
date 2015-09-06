@@ -1,5 +1,9 @@
 package com.aiweather.app.entities;
-
+/**
+ * County县级政区实体类
+ * @author liao jingwei
+ * 2015/5/3
+ */
 public class County {
 
 	private int id;

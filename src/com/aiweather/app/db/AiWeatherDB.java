@@ -12,7 +12,11 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-
+/**
+ * 封装对数据库的操作
+ * @author liao jingwei
+ * 2015/5/3
+ */
 public class AiWeatherDB {
 
 	public static final String DB_NAME="ai_weather";//数据库名
@@ -59,7 +63,7 @@ public class AiWeatherDB {
 	/**
 	 * 从数据库中读取省份信息
 	 */
-	public List<Province> getProvince(SQLiteDatabase db){
+	public List<Province> getProvince(){
 		
 		List<Province> provinceList=new ArrayList<Province>();
 		Cursor cursor=db.query("CREATE_PROVINCE", null, null, null, null, null, null);
